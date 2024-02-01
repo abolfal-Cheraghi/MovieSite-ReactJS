@@ -1,0 +1,270 @@
+.intro-movie {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  margin-top: -105px;
+  height: 100vh;
+  background-image: url("https://presite.ir/Film/wp-content/uploads/2023/04/train.jpg");
+  background-color: #1c1c22;
+  background-blend-mode: multiply;
+  box-shadow: inset 0 -50px 90px 40px #1c1c22;
+  z-index: 2;
+}
+
+.intro-movie::before {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #1c1c2270;
+}
+
+/* color */
+
+.color-g {
+  color: #afafaf !important;
+}
+
+.wrapper-page-movie {
+  margin-top: 70px;
+}
+
+.img-movie-page img {
+  height: 500px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.info-movie-page {
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+}
+.box-into-movie {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+}
+
+.box-into-movie .category-box {
+  font-size: 1rem !important;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border: 2px solid #afafaf;
+  color: #afafaf !important;
+  border-radius: 30px;
+}
+
+.appropriate {
+  font-size: 24px;
+  padding: 8px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.box-into-movie .imdb-box {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 10px 15px;
+  border: 2px solid #f3bb17;
+  background-color: #f3bc1741;
+  color: #fff !important;
+  border-radius: 30px;
+}
+.box-into-movie div,
+span {
+  color: #afafaf !important;
+}
+.description-movie-page {
+  color: #afafaf !important;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.box-acters {
+  border: 1px solid #afafaf80;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 18px !important;
+}
+
+.box-player-movie {
+  border: 1px solid #afafaf80;
+  border-radius: 20px;
+  padding: 5px 10px 5px 5px;
+  font-size: 16px;
+  color: #afafaf !important;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-movie-section {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+#btn-movie-1,
+#btn-movie-2 {
+  border: none;
+  outline: none;
+  padding: 10px 25px;
+  border-radius: 15px;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#btn-movie-1 {
+  background-color: #ffc23c;
+  color: #000000 !important;
+}
+#btn-movie-1 svg {
+  fill: #000000 !important;
+}
+#btn-movie-2 {
+  background-color: #ed145b;
+  color: #ffff !important;
+}
+
+.story-box-movie {
+  padding: 15px;
+  background-color: #23252b;
+  border-radius: 20px;
+  margin-top: 60px;
+}
+
+.video-story-box , .content-story-box{
+  height: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+/* vodeo player*/
+div [role ="region"]{
+  border-radius: 20px;
+    overflow: hidden;
+}
+
+
+/* download section */
+.download-box-movie{
+  background-color: #FFC23C;
+  border-radius: 15px;
+  margin-top: 40px;
+ 
+}
+
+.download-box-movie span{
+  color: #23252BAB !important;
+}
+.download-box-movie h4{
+  font-weight: 700;
+  color: #23252b !important;
+}
+
+.download-box-movie hr{
+  color: #23252b !important;
+}
+
+.wrapper-cart-download{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+
+.cart-download-movie{
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #1c1c22;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.cart-download-movie div{
+  width: 50%;
+}
+
+.cart-download-movie .btn-down{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.cart-download-movie span {
+  color: #ffffff !important;
+}
+
+.special-btn:hover{
+  background-color: #23252b;
+  color: #ffffff !important;
+}
+
+a[href = "#section-download"]{
+  color: #000 !important;
+}
+
+/* slider */
+
+.slider-movie-page {
+  margin-top: 50px;
+}
+
+
+@media screen and (max-width: 786px) {
+  .intro-movie {
+    height: auto;
+    align-items: end;
+  }
+  .img-movie-page {
+    padding: 40px 15px;
+  }
+  .box-player-movie {
+    align-items: center;
+    gap: 15px;
+  }
+  .btn-player-movie {
+    width: 100%;
+  }
+  #btn-movie-1,
+  #btn-movie-2 {
+    width: 50%;
+  }
+  .box-player-movie {
+    padding: 7px;
+  }
+  .box-into-movie {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .cart-download-movie div{
+  width: 100%;
+  gap: 5px;
+  justify-content: center;
+}
+.special-btn{
+  width: 100% !important;
+  justify-content: center;
+}
+ .cart-download-movie span{
+font-size: 16px !important;
+ }
+ .cart-download-movie .btn-down{
+  margin-top: 10px;
+ }
+
+ .wrapper-section-didgah{
+  flex-direction: column-reverse;
+ }
+}

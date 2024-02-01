@@ -1,0 +1,33 @@
+.search-box{
+    background-color: #303037;
+    width: 240px;
+    height: 45px;
+    padding: 3px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.search-box input{
+    line-height: none;
+    border: none;
+    background-color: transparent;
+    padding: 5px 5px;
+    width: 100%;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.search-box input:focus{
+    outline: none !important;
+    border: none !important;
+}
+.search-box  svg{
+    height: 100%;
+    width: 40px;
+    background-color: #ed145b !important   ;
+    border-radius: 20px;
+    padding: 5px;
+}
+

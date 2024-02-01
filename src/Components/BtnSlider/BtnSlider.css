@@ -1,0 +1,22 @@
+.siperBtn{
+    display: flex;
+}
+.siperBtn button{
+    all: unset;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #f5f5f5;
+    border-radius: 20%;
+    margin: 0 5px;
+    transition:  all .5s;
+}
+
+.siperBtn button svg{
+    display: block;
+    margin: auto;
+}
+
+.siperBtn button:hover{
+    border-color: #ed145b;
+    content: pointer;
+}
